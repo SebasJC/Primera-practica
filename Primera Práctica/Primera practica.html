@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Primera practica</title>
+	<script type="text/javascript" src="JS/Mayor o menor.js" >
+	</script> 
+	<script type="text/javascript" src="JS/Camisas.js" >
+	</script> 
+	<script type="text/javascript" src="JS/Precio estacionar.js" >
+	</script> 
+	<script type="text/javascript" src="JS/Par o impar.js" >
+	</script> 
+	<script type="text/javascript" src="JS/Descuento y regalo.js" >
+	</script> 
+	<script type="text/javascript" src="JS/Capicua.js" >
+	</script> 
+	<script type="text/javascript" src="JS/Dados.js" >
+	</script>
+	<script type="text/javascript" src="JS/km.js" >
+	</script>
+	<script type="text/javascript" src="JS/Promedio.js" >
+	</script>
+	<script type="text/javascript" src="JS/Triángulo.js" >
+	</script>
+	<script type="text/javascript" src="JS/Valor Menor.js" >
+	</script>
+	<script type="text/javascript" src="JS/Tornillos.js" >
+	</script>
+	<script type="text/javascript" src="JS/Elección.js" >
+	</script>
+	<script type="text/javascript" src="JS/Máximo con 3 cifras.js" >
+	</script>
+	<meta charset="utf-8">
+</head>
+<body>
+<h1>Ejercicio A</h1>
+<label>
+	<input type="number" id="num1" placeholder="Digita el primer numero">
+	<input type="number" id="num2" placeholder="Digita el segundo numero">
+	<input type="number" id="num3" placeholder="Digita el tercer numero">
+	<button onclick="mayor()">Comparar</button>
+	<div id="resultado">
+	</div>
+	<div id="resultado2">
+	</div>
+	<div id="resultado3">
+	</div>
+</label>
+<h1>Ejercicio B</h1>
+<p>Precio 10000 por camisa</p>
+<label>
+	<input type="number" id="cam" placeholder="Digita el numero de camisas que quieres comprar">
+	<button onclick="comprar()">Comprar</button>
+	<div id="cams">
+	</div>
+	<div id="camf">
+	</div>
+</label>
+<h1>Ejercicio C</h1>
+<label>
+	<input type="number" id="h" placeholder="Digita el numero de horas que estaras estacionado">
+	<input type="number" id="m" placeholder="Digita el numero de minutos extra que estaras estacionado">
+	<button onclick="estacionado()">Comprar</button>
+	<div id="preesta">
+	</div>
+</label>
+<h1>Ejercicio D</h1>
+<label>
+	<input type="number" id="n" placeholder="Digita un numero para ver si es par o no">
+	<button onclick="parono()">Ver</button>
+	<div id="pop">
+	</div>
+</label>
+<h1>Ejercicio E</h1>
+<p>3 docenas 15% descuento, menos 10%, 4 o mas docenas: un producto de regalo.
+<label>
+	<input type="number" id="pro" placeholder="Digita la cantidad de productos que quiera comprar">
+	<button onclick="ptienda()">Comprar</button>
+	<div id="prof">
+	</div>
+	<p>Tu obsequio:</p>
+
+	<span id="regu"></span>
+</label>
+<h1>Ejercicio F</h1>
+<label>
+	<input type="number" id="capin" placeholder="Digita el numero que quieres ver si es capicua">
+	<button onclick="capi()">Comprar</button>
+	<div id="capre">
+	</div>
+</label>
+<h1>Ejercicio G</h1>
+<label>
+<button onclick="dado1()">Tirar</button>	
+<div id="dado1">
+	</div>
+	<div id="dado2">
+	</div>
+	<div id="dado3">
+	</div>
+	<div id="dadof">
+	</div>
+</label>
+<h1>Ejercicio H</h1>
+<label>
+	<input type="number" id="km" placeholder="Digita el numero de kilometros">
+	<button onclick="carro()">Ver</button>
+	<div id="kmf">
+	</div>
+	<span id="res2"></span>
+</label>
+<h1>Ejercicio I</h1>
+<label>
+	<input type="number" id="nota1" placeholder="Digita la misma nota 1">
+	<input type="number" id="nota2" placeholder="Digita la misma nota 2">
+	<input type="number" id="nota3" placeholder="Digita la misma nota 3">
+	<input type="number" id="nota4" placeholder="Digita la misma nota 4">
+	<button onclick="notas()">Ver</button>
+	<div id="notae">
+	</div>
+	<div id="notap">
+	</div>
+</label>
+<h1>Ejercicio J</h1>
+<label>
+	<input type="number" id="ladol" placeholder="Lado mas largo">
+	<input type="number" id="cateto1" placeholder="Cateto 1">
+	<input type="number" id="cateto2" placeholder="Cateto 2">
+	<button onclick="triángulo()">Ver</button>
+	<div id="son">
+	</div>
+	<div id="qte">
+	</div>
+</label>
+<h1>Ejercicio K</h1>
+<label>
+	<input type="number" id="mvp1" placeholder="Primer numero">
+	<input type="number" id="mvp2" placeholder="Segundo numero">
+	<input type="number" id="mvp3" placeholder="Tercer numero">
+	<button onclick="mvp()">Ver</button>
+	<div id="mvpf">
+	</div>
+</label>
+<h1>Ejercicio L</h1>
+<label>
+	<input type="number" id="tornillos" placeholder="Tornillos producidos">
+	<input type="number" id="defecto" placeholder="Tornillos defectuosos">
+	<button onclick="tornillo()">Ver</button>
+	<div id="profin">
+	</div>
+</label>
+<h1>Ejercicio N</h>
+<label>
+	<input type="number" id="3c" placeholder="Número de 3 cifras">
+	<button onclick="cifras()">Ver</button>
+	<div id="numf">
+	</div>
+</label>
+</body>
+</html>
